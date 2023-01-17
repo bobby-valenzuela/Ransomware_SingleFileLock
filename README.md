@@ -21,6 +21,7 @@ The client script encrypts the "target.txt" file and doesn't decrypt it until th
 - Once the correct code is entered, the ESK key is sent to the server script.
 - The server returns the SK - the client script can finally decrypt the target file.
 - Finally the script will delete the ESK.
+- [TODO] Client to download servers public key.
 
 ### Server script
 - Listens to the client - waiting to receive the ESK.
